@@ -1,0 +1,4 @@
+<launch>
+    <node name="speedo_node" pkg="client_interface" type="speedo_node" output="screen"
+    launch-prefix="xterm -e gdb --args" />
+</launch>

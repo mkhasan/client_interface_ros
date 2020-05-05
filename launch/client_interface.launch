@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find client_interface)/config/configuration.yaml" command="load"/>
+    <node name="client_interface_node" pkg="client_interface" type="client_interface_node" output="screen"/>
+</launch>

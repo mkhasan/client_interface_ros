@@ -1,0 +1,3 @@
+ROBOT:
+  MUTEX_PREFIX : "kict_mp_camera002_"
+
